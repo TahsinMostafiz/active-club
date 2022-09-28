@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Activities = (props) => {
-    console.log(props.activity);
+    console.log(props.activity.img);
     const {name, img, time, details, for_age} = props.activity
     return (
         <div className='activity_div'>

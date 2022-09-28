@@ -2,7 +2,7 @@
   {
     "id": "6334902a9ad89727df051fd4",
     "index": 1,
-    "img": "img/treadmill.jpg",
+    "img": "./images/treadmill.jpg",
     "for_age": "20 - 50",
     "name": "Treadmill",
     "gym_comany_name": "Blackfit Fitness Club",
@@ -13,7 +13,7 @@
   {
     "id": "6334902a2b74237185fcb14c",
     "index": 2,
-    "img": "img/cycling.jpg",
+    "img": "./images/cycling.jpgcycling.jpg",
     "for_age": "20 - 50",
     "name": "Cycling",
     "gym_comany_name": "Blackfit Fitness Club",
@@ -24,7 +24,7 @@
   {
     "id": "6334902acc3a1cfe3af4c91c",
     "index": 3,
-    "img": "img/pushups.jpg",
+    "img": "pushups.jpg",
     "for_age": 29,
     "name": "Pushups",
     "gym_comany_name": "Blackfit Fitness Club",
@@ -35,7 +35,7 @@
   {
     "id": "6334902a62b97ae010275ca4",
     "index": 4,
-    "img": "img/dumbell.jpg",
+    "img": "dumbell.jpg",
     "for_age": 24,
     "name": "Dumbbell",
     "gym_comany_name": "Blackfit Fitness Club",
@@ -46,7 +46,7 @@
   {
     "id": "6334902a207e73e7f7bf6747",
     "index": 5,
-    "img": "img/dumbbells-bench-press.jpg",
+    "img": "dumbbells-bench-press.jpg",
     "for_age": 30,
     "name": "Dumbbell bench presses",
     "gym_comany_name": "Blackfit Fitness Club",
@@ -57,7 +57,7 @@
   {
     "id": "6334902ad6c36ad1e965862e",
     "index": 6,
-    "img": "img/barbell-bench-press.jpg",
+    "img": "barbell-bench-press.jpg",
     "for_age": 30,
     "name": "Barbell-bench-press",
     "gym_comany_name": "Blackfit Fitness Club",
@@ -68,7 +68,7 @@
   {
     "id": "6334902a8840ebc76b8850f7",
     "index": 7,
-    "img": "img/deadlift.jpg",
+    "img": "deadlift.jpg",
     "for_age": 32,
     "name": "Deadlift",
     "gym_comany_name": "Blackfit Fitness Club",
@@ -79,7 +79,7 @@
   {
     "id": "6334902a6dedea1201cf6fa5",
     "index": 8,
-    "img": "img/squats.jpg",
+    "img": "squats.jpg",
     "for_age": 22,
     "name": "Squats",
     "gym_comany_name": "Blackfit Fitness Club",
@@ -90,7 +90,7 @@
   {
     "id": "6334902a58c2d659aefb4b4b",
     "index": 9,
-    "img": "img/pull-ups.jpg",
+    "img": "pull-ups.jpg",
     "for_age": 25,
     "name": "Pull-ups",
     "gym_comany_name": "Blackfit Fitness Club",
@@ -101,7 +101,7 @@
   {
     "id": "6334902ac952e70b4871e03e",
     "index": 10,
-    "img": "img/leg-curl.jpg",
+    "img": "leg-curl.jpg",
     "for_age": 25,
     "name": "Leg Curls",
     "gym_comany_name": "Blackfit Fitness Club",
@@ -112,7 +112,7 @@
   {
     "id": "6334902a4d918eaac3a0c9af",
     "index": 11,
-    "img": "img/barbell-curl.jpg",
+    "img": "barbell-curl.jpg",
     "for_age": 30,
     "name": "Barbell curls",
     "gym_comany_name": "Blackfit Fitness Club",
@@ -123,7 +123,7 @@
   {
     "id": "6334902a1f31d90d5fd08934",
     "index": 12,
-    "img": "img/planks.jpg",
+    "img": "planks.jpg",
     "for_age": 29,
     "name": "Planks",
     "gym_comany_name": "Blackfit Fitness Club",
