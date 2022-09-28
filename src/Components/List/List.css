@@ -7,6 +7,7 @@
 .list_container .user{
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .list_container .user .user_img img {
@@ -26,4 +27,111 @@
     color: #f5f6fa;
     font-size: 13px;
     font-weight: 400;
+}
+
+.list_card {
+    background-color: #ced6e0;
+    padding: 15px 0;
+    border-radius: 10px;
+}
+
+.list_container .measurement_card {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.list_container .measurement_card h2 {
+    font-size: 40px;
+    color: #2f3542;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.list_container .measurement_card h2 sub {
+    font-size: 18px;
+    color: #a4b0be;
+    
+}
+
+.list_container .measurement_card p {
+    font-size: 16px;
+    color: #2f3542;
+    text-align: center;
+    font-weight: 500;
+}
+
+.list_container h3 {
+    color: #f5f6fa;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.list_container .add_break {
+    margin-bottom: 70px;
+}
+
+.list_container .add_break .break_time {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list_container .add_break .break_time p{
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.list_container .add_break .break_time p:hover {
+    background-color: #cf2f74;
+    color: #FFF;
+}
+
+.list_container .exercise_details .exercise_time, 
+.list_container .exercise_details .break_time {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.list_container .exercise_details .exercise_time p,
+.list_container .exercise_details .break_time p {
+    font-size: 18px;
+    color: #2f3542;
+    
+}
+
+.completed_btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.completed_btn button {
+    width: 100%;
+    background-color: #cf2f74;
+    border: 1px solid #cf2f74;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 15px 0;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.completed_btn button:hover{
+    background-color: #ced6e0;
+    border: 1px solid #ced6e0;
+    color: #2f3542;
 }

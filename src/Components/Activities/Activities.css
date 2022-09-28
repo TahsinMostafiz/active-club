@@ -61,4 +61,12 @@
     font-weight: 600;
     border-radius: 5px;
     padding: 10px 0;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.activity_div .card .card_footer button:hover{
+    background-color: #ced6e0;
+    border: 1px solid #ced6e0;
+    color: #2f3542;
 }
