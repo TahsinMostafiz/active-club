@@ -1,4 +1,5 @@
 import React from 'react';
+import './Activities.css';
 
 const Activities = (props) => {
     console.log(props.activity.img);
@@ -8,10 +9,10 @@ const Activities = (props) => {
             <div className="card">
                 <img src={img} alt="" />
                 <div className="card_body">
-                    <h2 className="title">{name}</h2>
-                    <p className="text">{details}</p>
-                    <h4>For Age : {for_age}</h4>
-                    <h5>Time required : {time}</h5>
+                    <h3 className="title">{name}</h3>
+                    <p className="text">{details ? details.slice(0, 110) : details}</p>
+                    <h5>For Age : <span>{for_age}</span></h5>
+                    <h5>Time required : <span>{time}</span></h5>
                 </div>
                 <div className="card_footer">
                     <button>Add to list</button>

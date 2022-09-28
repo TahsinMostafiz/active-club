@@ -1,9 +1,43 @@
 .home {
     display: grid;
     grid-template-columns: 4fr 1fr;
+    gap: 10px;
     background-color: #F2F3F8;
+    text-align: left;
+    padding: 0 50px;
 }
 
-.home h2 {
+.home .left_container header h2 {
     color: #88C13E;
 }
+
+.home  .left_container .activities_div {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+}
+
+@media only screen and (max-width : 1440px) {
+    .home  .left_container .activities_div {
+        grid-template-columns: repeat(3, auto);
+    }
+    
+}
+
+@media only screen and (max-width : 992px) {
+    .home  .left_container .activities_div {
+        grid-template-columns: repeat(2, auto);
+    }
+    
+}
+
+@media only screen and (max-width : 568px) {
+    .home  .left_container .activities_div {
+        grid-template-columns: repeat(1, auto);
+    }
+    
+}
+
+
+
+
