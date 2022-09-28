@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Activities from '../Activities/Activities';
+import List from '../List/List';
 import './Home.css';
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
                 </main>
             </div>
             <div className="right_container">
-                <h2>Right Container</h2>
+                <List></List>
             </div>
         </div>
     );

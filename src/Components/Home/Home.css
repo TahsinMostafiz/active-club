@@ -7,8 +7,20 @@
     padding: 0 50px;
 }
 
+.home .left_container {
+    padding-top: 80px;
+}
+
 .home .left_container header h2 {
-    color: #88C13E;
+    color: #cf2f74;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.home .left_container main h3 {
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .home  .left_container .activities_div {
@@ -16,6 +28,15 @@
     grid-template-columns: repeat(4, auto);
     gap: 20px;
 }
+
+
+/* Right Container */
+
+.home .right_container {
+    background-color:#043b5c;
+    padding: 20px;
+}
+
 
 @media only screen and (max-width : 1440px) {
     .home  .left_container .activities_div {
@@ -37,6 +58,7 @@
     }
     
 }
+
 
 
 

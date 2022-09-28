@@ -1,0 +1,29 @@
+
+.list_container {
+    position: sticky;
+    top: 0;
+}
+
+.list_container .user{
+    display: flex;
+    align-items: center;
+}
+
+.list_container .user .user_img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.list_container .user .user_text p{
+    color: #f5f6fa;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.list_container .user .user_text span{
+    color: #f5f6fa;
+    font-size: 13px;
+    font-weight: 400;
+}
