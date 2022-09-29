@@ -58,6 +58,7 @@ const Questions = () => {
                     <div>
                         <h3>Difference between State and Props</h3>
                         <table>
+                            <tbody>
                             <tr>
                                 <th>No:</th>
                                 <th>Props</th>
@@ -92,6 +93,7 @@ const Questions = () => {
                                 <td>Props are used to communicate between components.</td>    
                                 <td>States can be used for rendering dynamic changes with the component.</td>
                             </tr>
+                            </tbody>
                         </table>
                     </div>
                 </div>

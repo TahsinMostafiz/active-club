@@ -5,7 +5,9 @@ import './List.css';
 
 const List = ({list}) => {
     const [breakTimes, setBreakTime] = useState([]);
+    
 
+    
 
 
     let exercise_time = 0;
@@ -14,7 +16,6 @@ const List = ({list}) => {
         quantity = quantity + activity.quantity;
         exercise_time = exercise_time + activity.time ;
     }
-
     const toastMessage = () => {
         
         toast.success("Exercise Completed", {
@@ -52,10 +53,12 @@ const List = ({list}) => {
                 <h3>Add A Break</h3>
                 <div className="list_card">
                     <div className="break_time">
-                        <p><span onClick={(e) => setBreakTime(e.target.innerText)}>10</span>s </p>
-                        <p><span onClick={(e) => setBreakTime(e.target.innerText)}>20</span>s</p>
-                        <p><span onClick={(e) => setBreakTime(e.target.innerText)}>30</span>s</p>
-                        <p><span onClick={(e) => setBreakTime(e.target.innerText)}>40</span>s</p>
+                        
+
+                        <button><span onClick={(e) => setBreakTime(e.target.innerText)}>10</span>s </button>
+                        <button><span onClick={(e) => setBreakTime(e.target.innerText)}>20</span>s</button>
+                        <button><span onClick={(e) => setBreakTime(e.target.innerText)}>30</span>s</button>
+                        <button><span onClick={(e) => setBreakTime(e.target.innerText)}>40</span>s</button>
                     </div>
                 </div>
             </div>
@@ -67,7 +70,7 @@ const List = ({list}) => {
                 </div>
                 <div className="break_time list_card">
                     <p>Break time</p>
-                    <p>{breakTimes} seconds</p>
+                    <p> {breakTimes} seconds</p>
                     
                 </div>
             </div>
