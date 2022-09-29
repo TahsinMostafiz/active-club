@@ -15,9 +15,6 @@ const List = ({list}) => {
         exercise_time = exercise_time + activity.time ;
     }
 
-
-    
-
     const toastMessage = () => {
         
         toast.success("Exercise Completed", {
