@@ -8,7 +8,8 @@
     "gym_comany_name": "Blackfit Fitness Club",
     "address": "12/A Kamrpara Street, Uttara, Dhaka, 1230",
     "details": "Treadmills have become some of the most popular workout machines on the market. And with a good reason! First, they allow you to stay fit, even without having to go outdoors. But more importantly, treadmill workouts can benefit your health, both mentally and physically!",
-    "time": "30m"
+    "time": 30,
+    "min" : "min"
   },
   {
     "id": "6334902a2b74237185fcb14c",
@@ -19,7 +20,8 @@
     "gym_comany_name": "Blackfit Fitness Club",
     "address": "12/A Kamrpara Street, Uttara, Dhaka, 1230",
     "details": "Cardiovascular or aerobic workouts, such as cycling, strengthen your heart, lungs, and muscles. They also improve the flow of blood and oxygen throughout your body. This, in turn, can benefit your health in a number of ways.",
-    "time": "15m"
+    "time": 15,
+    "min" : "min"
   },
   {
     "id": "6334902acc3a1cfe3af4c91c",
@@ -30,7 +32,8 @@
     "gym_comany_name": "Blackfit Fitness Club",
     "address": "12/A Kamrpara Street, Uttara, Dhaka, 1230",
     "details": "Pushups are a fast and effective exercise for building strength. They can be done from virtually anywhere and don't require any equipment. Doing pushups every day can be effective if you're looking for a consistent exercise routine to follow. You will likely notice gains in upper body strength if you do pushups regularly.",
-    "time": "30s"
+    "time": 3,
+    "min" : "min"
   },
   {
     "id": "6334902a62b97ae010275ca4",
@@ -41,7 +44,8 @@
     "gym_comany_name": "Blackfit Fitness Club",
     "address": "12/A Kamrpara Street, Uttara, Dhaka, 1230",
     "details": "The CDC recommends that adults get at least 2 days of strength training a week. Strength training involves using weights to build stronger muscles. When you weight train, you work against gravity to lift or move dumbbells to certain positions.",
-    "time": "30s"
+    "time": 5,
+    "min" : "min"
   },
   {
     "id": "6334902a207e73e7f7bf6747",
@@ -52,7 +56,8 @@
     "gym_comany_name": "Blackfit Fitness Club",
     "address": "12/A Kamrpara Street, Uttara, Dhaka, 1230",
     "details": "Dumbbell bench presses build muscle in your upper body. With proper form, the dumbbell bench press activates muscle groups throughout your upper body, including your triceps, pectoral muscles (especially the pectoralis major), and anterior deltoids.",
-    "time": "30s"
+    "time": 5,
+    "min" : "min"
   },
   {
     "id": "6334902ad6c36ad1e965862e",
@@ -63,7 +68,8 @@
     "gym_comany_name": "Blackfit Fitness Club",
     "address": "12/A Kamrpara Street, Uttara, Dhaka, 1230",
     "details": "Bench presses work several different muscles in your upper body, including the chest, shoulders, and arms.",
-    "time": "30s"
+    "time": 5,
+    "min" : "min"
   },
   {
     "id": "6334902a8840ebc76b8850f7",
@@ -74,7 +80,8 @@
     "gym_comany_name": "Blackfit Fitness Club",
     "address": "12/A Kamrpara Street, Uttara, Dhaka, 1230",
     "details": "The deadlift is a staple of most strength-training programs, and it’s one of the three lifts performed in the sport of powerlifting.",
-    "time": "30s"
+    "time": 10,
+    "min" : "min"
   },
   {
     "id": "6334902a6dedea1201cf6fa5",
@@ -85,7 +92,8 @@
     "gym_comany_name": "Blackfit Fitness Club",
     "address": "12/A Kamrpara Street, Uttara, Dhaka, 1230",
     "details": "Squats help you feel and look good. Squatting helps shape up your legs and butt since it targets the glute and inner thigh muscles. As your buttocks become firm, your posture and balance might improve.",
-    "time": "1m"
+    "time": 5,
+    "min" : "min"
   },
   {
     "id": "6334902a58c2d659aefb4b4b",
@@ -96,7 +104,8 @@
     "gym_comany_name": "Blackfit Fitness Club",
     "address": "12/A Kamrpara Street, Uttara, Dhaka, 1230",
     "details": "In addition to working your back, pull-ups strengthen and sculpt your shoulders, forearms, and chest (pecs). They also engage your abs, including your deep transverse abdominis, making them a great exercise for targeting many of the major muscles in the body. ",
-    "time": "30s"
+    "time": 3,
+    "min" : "min"
   },
   {
     "id": "6334902ac952e70b4871e03e",
@@ -107,7 +116,8 @@
     "gym_comany_name": "Blackfit Fitness Club",
     "address": "12/A Kamrpara Street, Uttara, Dhaka, 1230",
     "details": "The leg curl takes your legs through a greater range of motion than most other leg exercises. This means it works alongside other hip extension exercises supporting increased flexibility and mobility in the hamstrings.",
-    "time": "30s"
+    "time": 3,
+    "min" : "min"
   },
   {
     "id": "6334902a4d918eaac3a0c9af",
@@ -118,7 +128,8 @@
     "gym_comany_name": "Blackfit Fitness Club",
     "address": "12/A Kamrpara Street, Uttara, Dhaka, 1230",
     "details": "Barbell curls are a versatile bicep exercise: You can adjust the weight plates attached to the barbell to accommodate your fitness level. Remember to start with lighter weights at first until you're comfortable with heavy weights.",
-    "time": "30s"
+    "time": 5,
+    "min" : "min"
   },
   {
     "id": "6334902a1f31d90d5fd08934",
@@ -129,6 +140,7 @@
     "gym_comany_name": "Blackfit Fitness Club",
     "address": "12/A Kamrpara Street, Uttara, Dhaka, 1230",
     "details": "The ability to brace your core is important for many everyday activities. “Our core needs to be strong to protect the spine when doing things that can cause back pain, such as lifting your child up or leaning forward to unload the dishwasher,” she says.",
-    "time": "30s"
+    "time": 3,
+    "min" : "min"
   }
 ]

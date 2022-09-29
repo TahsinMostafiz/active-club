@@ -1,7 +1,15 @@
 import React from 'react';
 import './List.css';
 
-const List = () => {
+const List = ({list}) => {
+
+
+    let exercise_time = 0;
+    for (let activity of list) {
+        exercise_time = exercise_time + activity.time;
+    }
+    
+    
     return (
         <div className='list_container'>
             <div className="user">
@@ -42,7 +50,7 @@ const List = () => {
                 <h3>Exercise Details</h3>
                 <div className="exercise_time list_card">
                     <p>Exercise time</p>
-                    <p>200 seconds</p>
+                    <p>{exercise_time}min</p>
                 </div>
                 <div className="break_time list_card">
                     <p>Break time</p>

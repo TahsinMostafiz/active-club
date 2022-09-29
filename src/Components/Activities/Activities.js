@@ -2,8 +2,8 @@ import React from 'react';
 import './Activities.css';
 
 const Activities = (props) => {
-    console.log(props.activity.img);
-    const {name, img, time, details, for_age} = props.activity
+   const {handleAddToList, activity} = props
+    const {name, img, time, details, for_age, min} = activity
     return (
         <div className='activity_div'>
             <div className="card">
@@ -12,10 +12,10 @@ const Activities = (props) => {
                     <h3 className="title">{name}</h3>
                     <p className="text">{details ? details.slice(0, 110) : details}</p>
                     <h5>For Age : <span>{for_age}</span></h5>
-                    <h5>Time required : <span>{time}</span></h5>
+                    <h5>Time required : <span>{time}{min}</span></h5>
                 </div>
                 <div className="card_footer">
-                    <button>Add to list</button>
+                    <button onClick={() => handleAddToList(activity)}>Add to list</button>
                 </div>
             </div>
         </div>
