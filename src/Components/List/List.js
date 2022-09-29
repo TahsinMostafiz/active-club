@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { deleteStorage } from '../../utilitity/fakeDB';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './List.css';
 
 const List = ({list}) => {
     const [breakTimes, setBreakTime] = useState([]);
 
 
-    
+
     let exercise_time = 0;
     let quantity = 0;
     for (let activity of list) {
@@ -19,6 +21,9 @@ const List = ({list}) => {
 
     const deleteStorageList = () => {
         deleteStorage();
+        toast.success("Exercise Completed", {
+            position : "top-center"
+        });
     }
     
     return (
@@ -73,6 +78,7 @@ const List = ({list}) => {
             <div className="completed_btn">
                 <button onClick={deleteStorageList}>Activity Completed</button>
             </div>
+            <ToastContainer />
         </div>
     );
 };
