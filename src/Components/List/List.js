@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { deleteStorage } from '../../utilitity/fakeDB';
 import './List.css';
 
 const List = ({list}) => {
+    const [breakTimes, setBreakTime] = useState([]);
 
+
+    
     let exercise_time = 0;
     let quantity = 0;
     for (let activity of list) {
@@ -11,10 +14,12 @@ const List = ({list}) => {
         exercise_time = exercise_time + activity.time ;
     }
 
+
+    
+
     const deleteStorageList = () => {
         deleteStorage();
     }
-    
     
     return (
         <div className='list_container'>
@@ -45,10 +50,10 @@ const List = ({list}) => {
                 <h3>Add A Break</h3>
                 <div className="list_card">
                     <div className="break_time">
-                        <p>10s</p>
-                        <p>20s</p>
-                        <p>30s</p>
-                        <p>40s</p>
+                        <p><span onClick={(e) => setBreakTime(e.target.innerText)}>10</span>s </p>
+                        <p><span onClick={(e) => setBreakTime(e.target.innerText)}>20</span>s</p>
+                        <p><span onClick={(e) => setBreakTime(e.target.innerText)}>30</span>s</p>
+                        <p><span onClick={(e) => setBreakTime(e.target.innerText)}>40</span>s</p>
                     </div>
                 </div>
             </div>
@@ -60,7 +65,8 @@ const List = ({list}) => {
                 </div>
                 <div className="break_time list_card">
                     <p>Break time</p>
-                    <p>15 seconds</p>
+                    <p>{breakTimes} seconds</p>
+                    
                 </div>
             </div>
 

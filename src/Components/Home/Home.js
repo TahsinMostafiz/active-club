@@ -7,7 +7,6 @@ import './Home.css';
 const Home = () => {
     const [gymActivities, setGymActivities] = useState([])
     const [list, setList] = useState([]);
-
     useEffect(() => {
         fetch('blackfit_fitness_club_data.json')
         .then(res => res.json())
