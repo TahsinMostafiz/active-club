@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { addToDB, getFromLocalStorage } from '../../utilitity/fakeDB';
 import Activities from '../Activities/Activities';
 import List from '../List/List';
 import './Home.css';
@@ -13,10 +14,26 @@ const Home = () => {
         .then(data => setGymActivities(data))
     },[]);
 
+
+    useEffect(() => {
+        const storedList = getFromLocalStorage();
+        const saveList = []
+        for (const id in storedList) {
+            const addedList = gymActivities.find(gymActivity => gymActivity.id === id);
+            if (addedList) {
+                const quantity = storedList[id];
+                addedList.quantity = quantity;
+                saveList.push(addedList);
+            }
+        }
+        setList(saveList);
+    }, [gymActivities]);
+
     const handleAddToList = (handleActivity) => {
         
         const newList = [...list, handleActivity];
         setList(newList)
+        addToDB(handleActivity.id)
     }
 
     return (

@@ -3,10 +3,11 @@ import './List.css';
 
 const List = ({list}) => {
 
-
     let exercise_time = 0;
+    let quantity = 0;
     for (let activity of list) {
-        exercise_time = exercise_time + activity.time;
+        quantity = quantity + activity.quantity;
+        exercise_time = exercise_time + activity.time ;
     }
     
     

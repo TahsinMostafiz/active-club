@@ -3,7 +3,7 @@ import './Activities.css';
 
 const Activities = (props) => {
    const {handleAddToList, activity} = props
-    const {name, img, time, details, for_age, min} = activity
+    const {name, img, time, details, for_age, min} = activity;
     return (
         <div className='activity_div'>
             <div className="card">

@@ -20,6 +20,17 @@ const addToDB = (id) => {
     localStorage.setItem('list-storage', JSON.stringify(storagelist));
 }
 
+const getFromLocalStorage = () => {
+    let storagelist = {};
+
+    const storedlist = localStorage.getItem('list-storage');
+    if(storedlist) {
+        storagelist = JSON.parse(storedlist);
+    }
+
+    return storagelist;
+}
+
 const removeToBD = (id) => {
     const storedlist = localStorage.getItem('list-storage');
     if (storedlist) {
@@ -31,5 +42,9 @@ const removeToBD = (id) => {
     }
 }
 
-export {addToDB, removeToBD};
+export {
+    addToDB, 
+    removeToBD,
+    getFromLocalStorage
+};
 
