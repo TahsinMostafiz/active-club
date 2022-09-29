@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { deleteStorage } from '../../utilitity/fakeDB';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './List.css';
@@ -19,11 +18,12 @@ const List = ({list}) => {
 
     
 
-    const deleteStorageList = () => {
-        deleteStorage();
+    const toastMessage = () => {
+        
         toast.success("Exercise Completed", {
             position : "top-center"
         });
+
     }
     
     return (
@@ -76,7 +76,7 @@ const List = ({list}) => {
             </div>
 
             <div className="completed_btn">
-                <button onClick={deleteStorageList}>Activity Completed</button>
+                <button onClick={toastMessage}>Activity Completed</button>
             </div>
             <ToastContainer />
         </div>

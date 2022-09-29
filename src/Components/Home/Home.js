@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { addToDB, getFromLocalStorage } from '../../utilitity/fakeDB';
 import Activities from '../Activities/Activities';
 import List from '../List/List';
+import Questions from '../Questions/Questions';
 import './Home.css';
 
 const Home = () => {
@@ -36,22 +37,27 @@ const Home = () => {
     }
 
     return (
-        <div className='home'>
-            <div className="left_container">
-                <header>
-                    <h2>Blackfit Fitness Club</h2>
-                </header>
-                <main>
-                    <h3>Select today's exercise</h3>
-                    <div className="activities_div">
-                        {
-                            gymActivities.map(activity => <Activities key={activity.id} activity={activity} handleAddToList={handleAddToList}></Activities>)
-                        }
-                    </div>
-                </main>
-            </div>
-            <div className="right_container">
-                <List list={list}></List>
+        <div>
+            <div className='home'>
+                <div className="left_container">
+                    <header>
+                        <h2>Blackfit Fitness Club</h2>
+                    </header>
+                    <main>
+                        <h3>Select today's exercise</h3>
+                        <div className="activities_div">
+                            {
+                                gymActivities.map(activity => <Activities key={activity.id} activity={activity} handleAddToList={handleAddToList}></Activities>)
+                            }
+                        </div>
+                    </main>
+                    <footer className="questions">
+                        <Questions></Questions>
+                    </footer>
+                </div>
+                <div className="right_container">
+                    <List list={list}></List>
+                </div>
             </div>
         </div>
     );
