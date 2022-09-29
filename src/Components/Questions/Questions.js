@@ -60,21 +60,53 @@ const Questions = () => {
                         <table>
                             <tr>
                                 <th>No:</th>
-                                <th>State</th>
-                                <th>Props</th>    
+                                <th>Props</th>
+                                <th>State</th>    
                             </tr>
                             <tr>
-                                <td>John Doe</td>
-                                <td>john.doe@example.com</td>    
-                                <td>123-45-678</td>
-                                <td>212-00-546</td>    
+                                <td>1</td>
+                                <td>Props are read-only.</td>    
+                                <td>State changes can be asynchronous.</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Props are immutable.</td>    
+                                <td>State is mutable.</td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Props allow you to pass data from one component to other components as an argument.</td>    
+                                <td>State holds information about the components.</td>
+                            </tr>
+
+                            <tr>
+                                <td>4</td>
+                                <td>Props can be accessed by the child component.</td>    
+                                <td>State cannot be accessed by child components.</td>
+                            </tr>
+
+                            <tr>
+                                <td>5</td>
+                                <td>Props are used to communicate between components.</td>    
+                                <td>States can be used for rendering dynamic changes with the component.</td>
                             </tr>
                         </table>
                     </div>
                 </div>
 
-                <div>
-                    <h2>useEffect usecase</h2>
+                <div className='useEffect'>
+                    <h2>3. useEffect usecase</h2>
+                    <p>React Hooks are JavaScript functions added to React version 16.8. React does not allow the side effects inside the main body of the function components, but we can use <code>useEffect()</code> hook to perform the side effects in our components.</p>
+                    <ol>
+                        <li>Running once on mount: fetch API data</li>
+                        <li>Running on state change: validating input field</li>
+                        <li>Running on state change: live filtering</li>
+                        <li>Running on state change: trigger animation on new array value</li>
+                        <li>Running on props change: update paragraph list on fetched API data update</li>
+                        <li>Running on props change: updating fetched API data to get BTC updated price</li>
+                    </ol>
                 </div>
             </div>
         </div>

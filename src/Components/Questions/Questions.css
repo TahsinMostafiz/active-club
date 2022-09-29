@@ -18,3 +18,16 @@ ol {
 .react_div {
     margin-bottom: 50px;
 }
+
+.useEffect {
+    margin-top: 50px;
+}
+
+.useEffect p{
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+  }
