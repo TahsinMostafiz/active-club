@@ -42,9 +42,16 @@ const removeToBD = (id) => {
     }
 }
 
+
+
+const deleteStorage = () =>{
+    localStorage.removeItem('list-storage');
+}
+
 export {
     addToDB, 
     removeToBD,
-    getFromLocalStorage
+    getFromLocalStorage,
+    deleteStorage
 };
 

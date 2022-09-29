@@ -1,4 +1,5 @@
 import React from 'react';
+import { deleteStorage } from '../../utilitity/fakeDB';
 import './List.css';
 
 const List = ({list}) => {
@@ -8,6 +9,10 @@ const List = ({list}) => {
     for (let activity of list) {
         quantity = quantity + activity.quantity;
         exercise_time = exercise_time + activity.time ;
+    }
+
+    const deleteStorageList = () => {
+        deleteStorage();
     }
     
     
@@ -60,7 +65,7 @@ const List = ({list}) => {
             </div>
 
             <div className="completed_btn">
-                <button>Activity Completed</button>
+                <button onClick={deleteStorageList}>Activity Completed</button>
             </div>
         </div>
     );
