@@ -70,3 +70,12 @@
     border: 1px solid #ced6e0;
     color: #2f3542;
 }
+
+
+@media only screen and (max-width : 500px) {
+    .activity_div .card img {
+        width: 200px;
+        height: 130px;
+        
+    }
+}

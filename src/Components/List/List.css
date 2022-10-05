@@ -1,5 +1,7 @@
 
 .list_container {
+
+    padding: 10px;
     position: sticky;
     top: 0;
 }
@@ -75,7 +77,8 @@
 }
 
 .list_container .add_break .break_time {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
     align-items: center;
     justify-content: space-around;
 }
@@ -136,3 +139,28 @@
     border: 1px solid #ced6e0;
     color: #2f3542;
 }
+
+@media only screen and (max-width : 1200px) {
+
+    .list_container .measurement_card {
+        grid-template-columns: repeat(1, auto);
+    }
+    .list_container .add_break .break_time {
+        grid-template-columns: repeat(2, auto);
+        gap: 10px;
+    }
+}
+
+
+@media only screen and (max-width : 1024px) {
+    .list_container .measurement_card {
+        grid-template-columns: repeat(3, auto);
+    }
+    .list_container .add_break .break_time {
+        grid-template-columns: repeat(4, auto);
+    }
+}
+
+
+
+

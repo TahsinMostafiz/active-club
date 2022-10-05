@@ -58,10 +58,36 @@
     
 }
 
+@media only screen and (max-width : 1024px) {
+
+    .home .left_container {
+        padding-top: 20px;
+        width:100%;
+    }
+
+    .home .right_container {
+        padding: 0px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    main {
+        margin-top: 600px;
+    }
+    
+}
+
 @media only screen and (max-width : 768px) {
+
+    .home {
+        display: block;
+    }
     .home  .left_container .activities_div {
         grid-template-columns: repeat(1, auto);
     }
+
     
 }
 
