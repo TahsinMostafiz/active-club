@@ -26,6 +26,9 @@ ol {
 .useEffect p{
     margin-bottom: 20px;
 }
+.stateProps_div table{
+    margin-right: 10px;
+}
 
 table, th, td {
     border: 1px solid black;
